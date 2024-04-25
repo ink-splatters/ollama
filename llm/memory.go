@@ -7,9 +7,9 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/ollama/ollama/api"
-	"github.com/ollama/ollama/format"
-	"github.com/ollama/ollama/gpu"
+	"github.com/ink-splatters/ollama/api"
+	"github.com/ink-splatters/ollama/format"
+	"github.com/ink-splatters/ollama/gpu"
 )
 
 // This algorithm looks for a complete fit to determine if we need to unload other models

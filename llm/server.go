@@ -23,9 +23,9 @@ import (
 
 	"golang.org/x/sync/semaphore"
 
-	"github.com/ollama/ollama/api"
-	"github.com/ollama/ollama/format"
-	"github.com/ollama/ollama/gpu"
+	"github.com/ink-splatters/ollama/api"
+	"github.com/ink-splatters/ollama/format"
+	"github.com/ink-splatters/ollama/gpu"
 )
 
 type LlamaServer interface {

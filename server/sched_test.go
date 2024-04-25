@@ -10,11 +10,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ollama/ollama/api"
-	"github.com/ollama/ollama/app/lifecycle"
-	"github.com/ollama/ollama/format"
-	"github.com/ollama/ollama/gpu"
-	"github.com/ollama/ollama/llm"
+	"github.com/ink-splatters/ollama/api"
+	"github.com/ink-splatters/ollama/app/lifecycle"
+	"github.com/ink-splatters/ollama/format"
+	"github.com/ink-splatters/ollama/gpu"
+	"github.com/ink-splatters/ollama/llm"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

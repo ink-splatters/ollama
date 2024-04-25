@@ -14,9 +14,9 @@ import (
 	"github.com/spf13/cobra"
 	"golang.org/x/exp/slices"
 
-	"github.com/ollama/ollama/api"
-	"github.com/ollama/ollama/progress"
-	"github.com/ollama/ollama/readline"
+	"github.com/ink-splatters/ollama/api"
+	"github.com/ink-splatters/ollama/progress"
+	"github.com/ink-splatters/ollama/readline"
 )
 
 type MultilineState int

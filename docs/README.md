@@ -6,7 +6,7 @@
 * [Importing models](./import.md)
 * [Linux Documentation](./linux.md)
 * [Windows Documentation](./windows.md)
-* [Docker Documentation](https://hub.docker.com/r/ollama/ollama)
+* [Docker Documentation](https://hub.docker.com/r/ink-splatters/ollama)
 
 ### Reference
 

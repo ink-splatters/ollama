@@ -1,4 +1,4 @@
-module github.com/ollama/ollama
+module github.com/ink-splatters/ollama
 
 go 1.22
 

@@ -20,7 +20,7 @@ import (
 	"sync"
 	"unsafe"
 
-	"github.com/ollama/ollama/format"
+	"github.com/ink-splatters/ollama/format"
 )
 
 type handles struct {

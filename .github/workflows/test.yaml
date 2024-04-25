@@ -96,7 +96,7 @@ jobs:
           cache: true
       - run: go get ./...
       - run: |
-          git config --global --add safe.directory /__w/ollama/ollama
+          git config --global --add safe.directory /__w/ink-splatters/ollama
           go generate -x ./...
         env:
           OLLAMA_SKIP_CPU_GENERATE: '1'
@@ -129,7 +129,7 @@ jobs:
           cache: true
       - run: go get ./...
       - run: |
-          git config --global --add safe.directory /__w/ollama/ollama
+          git config --global --add safe.directory /__w/ink-splatters/ollama
           go generate -x ./...
         env:
           OLLAMA_SKIP_CPU_GENERATE: '1'
