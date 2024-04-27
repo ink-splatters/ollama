@@ -7,7 +7,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/ollama/ollama/api"
+	"github.com/ink-splatters/ollama/api"
 )
 
 func TestExtractFilenames(t *testing.T) {

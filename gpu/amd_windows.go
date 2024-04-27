@@ -10,7 +10,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/ollama/ollama/format"
+	"github.com/ink-splatters/ollama/format"
 )
 
 const (
@@ -103,7 +103,7 @@ func AMDGetGPUInfo() []GpuInfo {
 			if !slices.Contains[[]string, string](supported, gfx) {
 				slog.Warn("amdgpu is not supported", "gpu", i, "gpu_type", gfx, "library", libDir, "supported_types", supported)
 				// TODO - consider discrete markdown just for ROCM troubleshooting?
-				slog.Warn("See https://github.com/ollama/ollama/blob/main/docs/troubleshooting.md for HSA_OVERRIDE_GFX_VERSION usage")
+				slog.Warn("See https://github.com/ink-splatters/ollama/blob/main/docs/troubleshooting.md for HSA_OVERRIDE_GFX_VERSION usage")
 				continue
 			} else {
 				slog.Info("amdgpu is supported", "gpu", i, "gpu_type", gfx)
