@@ -11,7 +11,7 @@ import "C"
 import (
 	"runtime"
 
-	"github.com/ollama/ollama/format"
+	"github.com/ink-splatters/ollama/format"
 )
 
 const (

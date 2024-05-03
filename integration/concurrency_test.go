@@ -11,7 +11,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ollama/ollama/api"
+	"github.com/ink-splatters/ollama/api"
 	"github.com/stretchr/testify/require"
 )
 
