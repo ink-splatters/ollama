@@ -41,10 +41,10 @@ ollama run example "What is your favourite condiment?"
 
 ### Setup
 
-First, clone the `ollama/ollama` repo:
+First, clone the `ink-splatters/ollama` repo:
 
 ```
-git clone git@github.com:ollama/ollama.git ollama
+git clone git@github.com:ink-splatters/ollama.git ollama
 cd ollama
 ```
 

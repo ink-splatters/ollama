@@ -26,7 +26,7 @@ curl -fsSL https://ollama.com/install.sh | sh
 
 ### Docker
 
-The official [Ollama Docker image](https://hub.docker.com/r/ollama/ollama) `ollama/ollama` is available on Docker Hub.
+The official [Ollama Docker image](https://hub.docker.com/r/ink-splatters/ollama) `ink-splatters/ollama` is available on Docker Hub.
 
 ### Libraries
 

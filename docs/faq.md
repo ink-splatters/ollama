@@ -169,7 +169,7 @@ Alternatively, the Docker daemon can be configured to use a proxy. Instructions 
 Ensure the certificate is installed as a system certificate when using HTTPS. This may require a new Docker image when using a self-signed certificate.
 
 ```dockerfile
-FROM ollama/ollama
+FROM ink-splatters/ollama
 COPY my-ca.pem /usr/local/share/ca-certificates/my-ca.crt
 RUN update-ca-certificates
 ```

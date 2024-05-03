@@ -16,7 +16,7 @@ primary_region = "ord"
 vm.size = "a100-40gb" # see https://fly.io/docs/gpus/gpu-quickstart/ for more info
 
 [build]
-  image = "ollama/ollama"
+  image = "ink-splatters/ollama"
 
 [http_service]
   internal_port = 11434
@@ -47,7 +47,7 @@ fly deploy
 And finally you can access it interactively with a new Fly.io Machine:
 
 ```
-fly machine run -e OLLAMA_HOST=http://your-app-name.flycast --shell ollama/ollama
+fly machine run -e OLLAMA_HOST=http://your-app-name.flycast --shell ink-splatters/ollama
 ```
 
 ```bash
