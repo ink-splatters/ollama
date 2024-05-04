@@ -1,6 +1,6 @@
 // Package api implements the client-side API for code wishing to interact
 // with the ollama service. The methods of the [Client] type correspond to
-// the ollama REST API as described in https://github.com/ollama/ollama/blob/main/docs/api.md
+// the ollama REST API as described in https://github.com/ink-splatters/ollama/blob/main/docs/api.md
 //
 // The ollama command-line client itself uses this package to interact with
 // the backend service.
@@ -21,8 +21,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/ollama/ollama/format"
-	"github.com/ollama/ollama/version"
+	"github.com/ink-splatters/ollama/format"
+	"github.com/ink-splatters/ollama/version"
 )
 
 // Client encapsulates client state for interacting with the ollama

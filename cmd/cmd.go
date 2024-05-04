@@ -31,14 +31,14 @@ import (
 	"golang.org/x/exp/slices"
 	"golang.org/x/term"
 
-	"github.com/ollama/ollama/api"
-	"github.com/ollama/ollama/auth"
-	"github.com/ollama/ollama/format"
-	"github.com/ollama/ollama/progress"
-	"github.com/ollama/ollama/server"
-	"github.com/ollama/ollama/types/errtypes"
-	"github.com/ollama/ollama/types/model"
-	"github.com/ollama/ollama/version"
+	"github.com/ink-splatters/ollama/api"
+	"github.com/ink-splatters/ollama/auth"
+	"github.com/ink-splatters/ollama/format"
+	"github.com/ink-splatters/ollama/progress"
+	"github.com/ink-splatters/ollama/server"
+	"github.com/ink-splatters/ollama/types/errtypes"
+	"github.com/ink-splatters/ollama/types/model"
+	"github.com/ink-splatters/ollama/version"
 )
 
 func CreateHandler(cmd *cobra.Command, args []string) error {

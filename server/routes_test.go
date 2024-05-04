@@ -16,9 +16,9 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/ollama/ollama/api"
-	"github.com/ollama/ollama/types/model"
-	"github.com/ollama/ollama/version"
+	"github.com/ink-splatters/ollama/api"
+	"github.com/ink-splatters/ollama/types/model"
+	"github.com/ink-splatters/ollama/version"
 )
 
 func Test_Routes(t *testing.T) {

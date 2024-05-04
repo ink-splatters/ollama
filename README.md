@@ -1,5 +1,5 @@
 <div align="center">
- <img alt="ollama" height="200px" src="https://github.com/ollama/ollama/assets/3325447/0d0b44e2-8f4a-4e99-9b52-a5c1c741c8f7">
+ <img alt="ollama" height="200px" src="https://github.com/ink-splatters/ollama/assets/3325447/0d0b44e2-8f4a-4e99-9b52-a5c1c741c8f7">
 </div>
 
 # Ollama
@@ -22,7 +22,7 @@ Get up and running with large language models locally.
 curl -fsSL https://ollama.com/install.sh | sh
 ```
 
-[Manual install instructions](https://github.com/ollama/ollama/blob/main/docs/linux.md)
+[Manual install instructions](https://github.com/ink-splatters/ollama/blob/main/docs/linux.md)
 
 ### Docker
 
@@ -30,8 +30,8 @@ The official [Ollama Docker image](https://hub.docker.com/r/ollama/ollama) `olla
 
 ### Libraries
 
-- [ollama-python](https://github.com/ollama/ollama-python)
-- [ollama-js](https://github.com/ollama/ollama-js)
+- [ollama-python](https://github.com/ink-splatters/ollama-python)
+- [ollama-js](https://github.com/ink-splatters/ollama-js)
 
 ## Quickstart
 
@@ -210,7 +210,7 @@ Then build the binary:
 go build .
 ```
 
-More detailed instructions can be found in the [developer guide](https://github.com/ollama/ollama/blob/main/docs/development.md)
+More detailed instructions can be found in the [developer guide](https://github.com/ink-splatters/ollama/blob/main/docs/development.md)
 
 ### Running local builds
 
@@ -261,7 +261,7 @@ See the [API documentation](./docs/api.md) for all endpoints.
 - [Lollms-Webui](https://github.com/ParisNeo/lollms-webui)
 - [LibreChat](https://github.com/danny-avila/LibreChat)
 - [Bionic GPT](https://github.com/bionic-gpt/bionic-gpt)
-- [HTML UI](https://github.com/rtcfirefly/ollama-ui)
+- [HTML UI](https://github.com/ink-splatters/ollama-ui)
 - [Saddle](https://github.com/jikkuatwork/saddle)
 - [Chatbot UI](https://github.com/ivanfioravanti/chatbot-ollama)
 - [Chatbot UI v2](https://github.com/mckaywrigley/chatbot-ui)
@@ -279,32 +279,32 @@ See the [API documentation](./docs/api.md) for all endpoints.
 - [Msty](https://msty.app)
 - [Chatbox](https://github.com/Bin-Huang/Chatbox)
 - [WinForm Ollama Copilot](https://github.com/tgraupmann/WinForm_Ollama_Copilot)
-- [NextChat](https://github.com/ChatGPTNextWeb/ChatGPT-Next-Web) with [Get Started Doc](https://docs.nextchat.dev/models/ollama)
+- [NextChat](https://github.com/ink-splatters/ollama)
 - [Alpaca WebUI](https://github.com/mmo80/alpaca-webui)
-- [OllamaGUI](https://github.com/enoch1118/ollamaGUI)
+- [OllamaGUI](https://github.com/ink-splatters/ollamaGUI)
 - [OpenAOE](https://github.com/InternLM/OpenAOE)
 - [Odin Runes](https://github.com/leonid20000/OdinRunes)
 - [LLM-X: Progressive Web App](https://github.com/mrdjohnson/llm-x)
 - [AnythingLLM (Docker + MacOs/Windows/Linux native app)](https://github.com/Mintplex-Labs/anything-llm)
-- [Ollama Basic Chat: Uses HyperDiv Reactive UI](https://github.com/rapidarchitect/ollama_basic_chat)
-- [Ollama-chats RPG](https://github.com/drazdra/ollama-chats)
+- [Ollama Basic Chat: Uses HyperDiv Reactive UI](https://github.com/ink-splatters/ollama_basic_chat)
+- [Ollama-chats RPG](https://github.com/ink-splatters/ollama-chats)
 - [QA-Pilot: Chat with Code Repository](https://github.com/reid41/QA-Pilot)
 - [ChatOllama: Open Source Chatbot based on Ollama with Knowledge Bases](https://github.com/sugarforever/chat-ollama)
 - [CRAG Ollama Chat: Simple Web Search with Corrective RAG](https://github.com/Nagi-ovo/CRAG-Ollama-Chat)
 - [RAGFlow: Open-source Retrieval-Augmented Generation engine based on deep document understanding](https://github.com/infiniflow/ragflow)
 - [chat: chat web app for teams](https://github.com/swuecho/chat)
-- [Lobe Chat](https://github.com/lobehub/lobe-chat) with [Integrating Doc](https://lobehub.com/docs/self-hosting/examples/ollama)
+- [Lobe Chat](https://github.com/ink-splatters/ollama)
 - [Ollama RAG Chatbot: Local Chat with multiple PDFs using Ollama and RAG.](https://github.com/datvodinh/rag-chatbot.git)
 
 ### Terminal
 
 - [oterm](https://github.com/ggozad/oterm)
 - [Ellama Emacs client](https://github.com/s-kostyaev/ellama)
-- [Emacs client](https://github.com/zweifisch/ollama)
+- [Emacs client](https://github.com/ink-splatters/ollama)
 - [gen.nvim](https://github.com/David-Kunz/gen.nvim)
-- [ollama.nvim](https://github.com/nomnivore/ollama.nvim)
+- [ollama.nvim](https://github.com/ink-splatters/ollama.nvim)
 - [ollero.nvim](https://github.com/marco-souza/ollero.nvim)
-- [ollama-chat.nvim](https://github.com/gerazov/ollama-chat.nvim)
+- [ollama-chat.nvim](https://github.com/ink-splatters/ollama-chat.nvim)
 - [ogpt.nvim](https://github.com/huynle/ogpt.nvim)
 - [gptel Emacs client](https://github.com/karthink/gptel)
 - [Oatmeal](https://github.com/dustinblackman/oatmeal)
@@ -320,7 +320,7 @@ See the [API documentation](./docs/api.md) for all endpoints.
 
 ### Database
 
-- [MindsDB](https://github.com/mindsdb/mindsdb/blob/staging/mindsdb/integrations/handlers/ollama_handler/README.md) (Connects Ollama models with nearly 200 data platforms and apps)
+- [MindsDB](https://github.com/ink-splatters/ollama_handler/README.md) (Connects Ollama models with nearly 200 data platforms and apps)
 - [chromem-go](https://github.com/philippgille/chromem-go/blob/v0.5.0/embed_ollama.go) with [example](https://github.com/philippgille/chromem-go/tree/v0.5.0/examples/rag-wikipedia-ollama)
 
 ### Package managers
@@ -331,24 +331,24 @@ See the [API documentation](./docs/api.md) for all endpoints.
 ### Libraries
 
 - [LangChain](https://python.langchain.com/docs/integrations/llms/ollama) and [LangChain.js](https://js.langchain.com/docs/modules/model_io/models/llms/integrations/ollama) with [example](https://js.langchain.com/docs/use_cases/question_answering/local_retrieval_qa)
-- [LangChainGo](https://github.com/tmc/langchaingo/) with [example](https://github.com/tmc/langchaingo/tree/main/examples/ollama-completion-example)
-- [LangChain4j](https://github.com/langchain4j/langchain4j) with [example](https://github.com/langchain4j/langchain4j-examples/tree/main/ollama-examples/src/main/java)
+- [LangChainGo](https://github.com/ink-splatters/ollama-completion-example)
+- [LangChain4j](https://github.com/ink-splatters/ollama-examples/src/main/java)
 - [LlamaIndex](https://gpt-index.readthedocs.io/en/stable/examples/llm/ollama.html)
 - [LiteLLM](https://github.com/BerriAI/litellm)
 - [OllamaSharp for .NET](https://github.com/awaescher/OllamaSharp)
-- [Ollama for Ruby](https://github.com/gbaptista/ollama-ai)
-- [Ollama-rs for Rust](https://github.com/pepperoni21/ollama-rs)
-- [Ollama4j for Java](https://github.com/amithkoujalgi/ollama4j)
+- [Ollama for Ruby](https://github.com/ink-splatters/ollama-ai)
+- [Ollama-rs for Rust](https://github.com/ink-splatters/ollama-rs)
+- [Ollama4j for Java](https://github.com/ink-splatters/ollama4j)
 - [ModelFusion Typescript Library](https://modelfusion.dev/integration/model-provider/ollama)
 - [OllamaKit for Swift](https://github.com/kevinhermawan/OllamaKit)
 - [Ollama for Dart](https://github.com/breitburg/dart-ollama)
-- [Ollama for Laravel](https://github.com/cloudstudio/ollama-laravel)
+- [Ollama for Laravel](https://github.com/ink-splatters/ollama-laravel)
 - [LangChainDart](https://github.com/davidmigloz/langchain_dart)
-- [Semantic Kernel - Python](https://github.com/microsoft/semantic-kernel/tree/main/python/semantic_kernel/connectors/ai/ollama)
-- [Haystack](https://github.com/deepset-ai/haystack-integrations/blob/main/integrations/ollama.md)
+- [Semantic Kernel - Python](https://github.com/ink-splatters/ollama)
+- [Haystack](https://github.com/ink-splatters/ollama.md)
 - [Elixir LangChain](https://github.com/brainlid/langchain)
 - [Ollama for R - rollama](https://github.com/JBGruber/rollama)
-- [Ollama-ex for Elixir](https://github.com/lebrunel/ollama-ex)
+- [Ollama-ex for Elixir](https://github.com/ink-splatters/ollama-ex)
 - [Ollama Connector for SAP ABAP](https://github.com/b-tocs/abap_btocs_ollama)
 - [Testcontainers](https://testcontainers.com/modules/ollama/)
 
@@ -363,11 +363,11 @@ See the [API documentation](./docs/api.md) for all endpoints.
 - [Discollama](https://github.com/mxyng/discollama) (Discord bot inside the Ollama discord channel)
 - [Continue](https://github.com/continuedev/continue)
 - [Obsidian Ollama plugin](https://github.com/hinterdupfinger/obsidian-ollama)
-- [Logseq Ollama plugin](https://github.com/omagdy7/ollama-logseq)
+- [Logseq Ollama plugin](https://github.com/ink-splatters/ollama-logseq)
 - [NotesOllama](https://github.com/andersrex/notesollama) (Apple Notes Ollama plugin)
 - [Dagger Chatbot](https://github.com/samalba/dagger-chatbot)
 - [Discord AI Bot](https://github.com/mekb-turtle/discord-ai-bot)
-- [Ollama Telegram Bot](https://github.com/ruecat/ollama-telegram)
+- [Ollama Telegram Bot](https://github.com/ink-splatters/ollama-telegram)
 - [Hass Ollama Conversation](https://github.com/ej52/hass-ollama-conversation)
 - [Rivet plugin](https://github.com/abrenneke/rivet-plugin-ollama)
 - [Llama Coder](https://github.com/ex3ndr/llama-coder) (Copilot alternative using Ollama)

@@ -6,7 +6,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ollama/ollama/format"
+	"github.com/ink-splatters/ollama/format"
 	"golang.org/x/term"
 )
 
