@@ -9,7 +9,7 @@ import (
 	"log/slog"
 	"strings"
 
-	"github.com/ollama/ollama/llm"
+	"github.com/ink-splatters/ollama/llm"
 )
 
 type ModelParameters struct {

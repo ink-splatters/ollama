@@ -11,8 +11,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/ollama/ollama/envconfig"
-	"github.com/ollama/ollama/format"
+	"github.com/ink-splatters/ollama/envconfig"
+	"github.com/ink-splatters/ollama/format"
 )
 
 const (

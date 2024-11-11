@@ -16,11 +16,11 @@ import (
 	"strings"
 	"text/template/parse"
 
-	"github.com/ollama/ollama/api"
-	"github.com/ollama/ollama/convert"
-	"github.com/ollama/ollama/llm"
-	"github.com/ollama/ollama/template"
-	"github.com/ollama/ollama/types/model"
+	"github.com/ink-splatters/ollama/api"
+	"github.com/ink-splatters/ollama/convert"
+	"github.com/ink-splatters/ollama/llm"
+	"github.com/ink-splatters/ollama/template"
+	"github.com/ink-splatters/ollama/types/model"
 )
 
 var intermediateBlobs map[string]string = make(map[string]string)

@@ -15,12 +15,12 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/ollama/ollama/api"
-	"github.com/ollama/ollama/llm"
-	"github.com/ollama/ollama/openai"
-	"github.com/ollama/ollama/parser"
-	"github.com/ollama/ollama/types/model"
-	"github.com/ollama/ollama/version"
+	"github.com/ink-splatters/ollama/api"
+	"github.com/ink-splatters/ollama/llm"
+	"github.com/ink-splatters/ollama/openai"
+	"github.com/ink-splatters/ollama/parser"
+	"github.com/ink-splatters/ollama/types/model"
+	"github.com/ink-splatters/ollama/version"
 )
 
 func createTestFile(t *testing.T, name string) string {

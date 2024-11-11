@@ -20,7 +20,7 @@ import (
 
 	"golang.org/x/exp/maps"
 
-	"github.com/ollama/ollama/llm"
+	"github.com/ink-splatters/ollama/llm"
 )
 
 type tensorData struct {

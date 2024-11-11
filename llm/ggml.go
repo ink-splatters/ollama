@@ -9,7 +9,7 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/ollama/ollama/util/bufioutil"
+	"github.com/ink-splatters/ollama/util/bufioutil"
 )
 
 type GGML struct {

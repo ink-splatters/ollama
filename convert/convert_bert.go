@@ -8,7 +8,7 @@ import (
 	"slices"
 	"strings"
 
-	"github.com/ollama/ollama/llm"
+	"github.com/ink-splatters/ollama/llm"
 )
 
 type bertModel struct {

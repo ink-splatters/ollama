@@ -24,13 +24,13 @@ import (
 
 	"golang.org/x/sync/semaphore"
 
-	"github.com/ollama/ollama/api"
-	"github.com/ollama/ollama/build"
-	"github.com/ollama/ollama/discover"
-	"github.com/ollama/ollama/envconfig"
-	"github.com/ollama/ollama/format"
-	"github.com/ollama/ollama/llama"
-	"github.com/ollama/ollama/runners"
+	"github.com/ink-splatters/ollama/api"
+	"github.com/ink-splatters/ollama/build"
+	"github.com/ink-splatters/ollama/discover"
+	"github.com/ink-splatters/ollama/envconfig"
+	"github.com/ink-splatters/ollama/format"
+	"github.com/ink-splatters/ollama/llama"
+	"github.com/ink-splatters/ollama/runners"
 )
 
 type LlamaServer interface {

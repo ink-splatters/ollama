@@ -4,7 +4,7 @@
 
 include make/common-defs.make
 
-CPU_GOFLAGS="-ldflags=-w -s \"-X=github.com/ollama/ollama/version.Version=$(VERSION)\" \"-X=github.com/ollama/ollama/llama.CpuFeatures=$(subst $(space),$(comma),$(TARGET_CPU_FLAGS))\" $(TARGET_LDFLAGS)"
+CPU_GOFLAGS="-ldflags=-w -s \"-X=github.com/ink-splatters/ollama/llama.CpuFeatures=$(subst $(space),$(comma),$(TARGET_CPU_FLAGS))\" $(TARGET_LDFLAGS)"
 DEFAULT_RUNNER := $(if $(and $(filter darwin,$(OS)),$(filter arm64,$(ARCH))),metal,cpu)
 RUNNERS := $(DEFAULT_RUNNER)
 ifeq ($(ARCH),amd64)

@@ -1,7 +1,7 @@
 package convert
 
 import (
-	"github.com/ollama/ollama/llm"
+	"github.com/ink-splatters/ollama/llm"
 )
 
 type gemma2Model struct {

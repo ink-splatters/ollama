@@ -9,8 +9,8 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 
-	"github.com/ollama/ollama/api"
-	"github.com/ollama/ollama/template"
+	"github.com/ink-splatters/ollama/api"
+	"github.com/ink-splatters/ollama/template"
 )
 
 func TestChatPrompt(t *testing.T) {

@@ -18,8 +18,8 @@ import (
 
 	"golang.org/x/sync/errgroup"
 
-	"github.com/ollama/ollama/discover"
-	"github.com/ollama/ollama/envconfig"
+	"github.com/ink-splatters/ollama/discover"
+	"github.com/ink-splatters/ollama/envconfig"
 )
 
 const (

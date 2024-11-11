@@ -22,17 +22,17 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/ollama/ollama/api"
-	"github.com/ollama/ollama/auth"
-	"github.com/ollama/ollama/envconfig"
-	"github.com/ollama/ollama/format"
-	"github.com/ollama/ollama/llama"
-	"github.com/ollama/ollama/llm"
-	"github.com/ollama/ollama/parser"
-	"github.com/ollama/ollama/template"
-	"github.com/ollama/ollama/types/errtypes"
-	"github.com/ollama/ollama/types/model"
-	"github.com/ollama/ollama/version"
+	"github.com/ink-splatters/ollama/api"
+	"github.com/ink-splatters/ollama/auth"
+	"github.com/ink-splatters/ollama/envconfig"
+	"github.com/ink-splatters/ollama/format"
+	"github.com/ink-splatters/ollama/llama"
+	"github.com/ink-splatters/ollama/llm"
+	"github.com/ink-splatters/ollama/parser"
+	"github.com/ink-splatters/ollama/template"
+	"github.com/ink-splatters/ollama/types/errtypes"
+	"github.com/ink-splatters/ollama/types/model"
+	"github.com/ink-splatters/ollama/version"
 )
 
 var (
